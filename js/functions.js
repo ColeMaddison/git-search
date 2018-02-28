@@ -63,7 +63,7 @@ let generateBlock = (repos) => {
                     <p>${repos.language ? repos.language : 'No language'}</p>
                 </div>
                 <div class="repStars col-md-3">
-                    <a href="https://github.com/${repos.owner.login}/${repos.name}/stargazers">${repos.stargazers_count} Stars</a>
+                    <a href="https://github.com/${repos.owner.login}/${repos.name}/stargazers" target="_blank">${repos.stargazers_count} Stars</a>
                     <input class="deleteResult" type="submit" value="Remove">
                 </div>
             </div>
