@@ -1,0 +1,67 @@
+.searchInput{
+    display: inline-block;
+    min-width: 460px;
+    padding-top: 20px;
+}
+
+.searchInput input[type=text]{
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    background: #aeaeae86;
+    border: none;
+    float: left;
+    width: 65%;
+    min-width: 250px;
+}
+
+.searchInput input[type=submit]{
+    float: left;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background: cadetblue;
+    cursor: pointer;
+    border-left: 1px solid grey;
+}
+
+.repAmount{
+    border-bottom: 1px solid grey;  
+}
+
+.searchResult{
+    border-bottom: 1px solid grey; 
+}
+
+.repInfo h3,
+.repInfo p,
+.reptopic{
+    margin-left: -50px;
+}
+
+.reptopic a{
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #f1f8ff;
+    display: inline-block;
+}
+
+.repLycDat p .repDate{
+    display: flex;
+}
+
+.repLang,
+.repStars{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.deleteResult{
+    margin-top: 40px;
+    font-size: 12px;
+    padding: 7px;
+    border: none;
+    background: rgb(247, 91, 91);
+    cursor: pointer;
+}
